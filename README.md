@@ -1,2 +1,2 @@
 # timchin.co
-Personal website
+Personal website written in React.js
