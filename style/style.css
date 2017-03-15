@@ -1,46 +1,45 @@
 body {
   font-family: roboto;
+  background-image: url("assets/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
 }
 
-#page {
+.page {
   width: 100%;
+}
+
+.header {
+  font-size: 65px;
+  color: white;
+  border: 1px solid white;
+  height: 80px;
+  width: 400px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 36%;
+}
+
+.header p {
+  margin-top: -6px;
 }
 
 /* * * * * * *
  *           *
- *    Nav    *
+ *    NAV    *
  *           *
  * * * * * * */
 
 .nav-container {
   height: 60px;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.title {
-  font-size: 35px;
-  display: flex;
-  flex-direction: row;
-  flex: 2.5;
-  padding-left: 10%;
-}
-
-.description {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: row;
-  flex: 6;
-  font-size: 18px;
 }
 
 .media-icons-container {
-  display: flex;
-  flex: 2;
-  flex-direction: row;
   list-style: none;
-  padding-right: 10%;
+  float: right;
+  padding-right: 1%;
 }
 
 .media-icons {
@@ -48,3 +47,30 @@ body {
   font-size: 25px;
   padding: 5px;
 }
+
+i {
+  color: white;
+}
+
+/* * * * * * *
+ *           *
+ * PORTFOLIO *
+ *           *
+ * * * * * * */
+
+.portfolio {
+  margin-left: 35%;
+}
+
+.project-headers {
+  padding-left: 10%;
+  width: 30%;
+  list-style: none;
+  text-align: center;
+}
+
+.project-headers a {
+  font-size: 20px;
+  color: white;
+}
+

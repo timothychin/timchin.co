@@ -1,0 +1,8 @@
+"use strict";
+
+var Nimbus = function Nimbus() {
+  return React.createElement("div", null);
+};
+
+window.Nimbus = Nimbus;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL05pbWJ1cy5qc3giXSwibmFtZXMiOlsiTmltYnVzIiwid2luZG93Il0sIm1hcHBpbmdzIjoiOztBQUFBLElBQUlBLFNBQVMsU0FBVEEsTUFBUztBQUFBLFNBQ1gsZ0NBRFc7QUFBQSxDQUFiOztBQU1BQyxPQUFPRCxNQUFQLEdBQWdCQSxNQUFoQiIsImZpbGUiOiJOaW1idXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgTmltYnVzID0gKCkgPT4gKFxuICA8ZGl2PlxuICAgIFxuICA8L2Rpdj5cbik7XG5cbndpbmRvdy5OaW1idXMgPSBOaW1idXM7Il19

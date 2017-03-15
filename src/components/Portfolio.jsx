@@ -1,24 +1,18 @@
 var Portfolio = () => (
   <div> 
-    <div className="photoBanner">
-      <img src=""/>
-    </div>
-    <div>
-      <div className="project-thumbnails">
-        <a>Nimbus</a>
-        <a href=""><img src=""/></a>      
-      </div>
+    <ul className="portfolio">
+      <li className="project-headers">
+        <a href="https://github.com/timothychin/nimbus-mobile">Nimbus</a>
+      </li>
 
-      <div className="project-thumbnails">
-        <a>TubeNotes</a>
-        <a><img src=""/></a> 
-      </div>
+      <li className="project-headers">
+        <a href="https://github.com/timothychin/tube-notes">TubeNotes</a>
+      </li>
 
-      <div className="project-thumbnails">
-        <a>PlanThis</a>
-        <a><img src=""/></a> 
-      </div>
-    </div>
+      <li className="project-headers">
+        <a href="https://github.com/timothychin/plan-this">PlanThis</a>
+      </li>
+    </ul>
   </div>
 );
 

@@ -1,12 +1,12 @@
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
-      <div id="page">
+      <div className="page">
         <Nav/>
+        <div className="header">
+          <p>TIM CHIN</p>
+        </div>
         <Portfolio/>
       </div>
     );
