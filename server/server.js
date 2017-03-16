@@ -6,7 +6,7 @@ const logger = require('morgan');
 const http = require('http');
 const fs = require('fs');
 
-const port = 8000;
+const port = 80;
 const app = express();
 
 app.set('views', __dirname + '/../public');
