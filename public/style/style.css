@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 720px;
 }
 
 .page {
@@ -20,10 +20,11 @@ body {
   text-align: center;
   margin-top: 200px;
   margin-left: 36%;
+  margin-right: 36%;
 }
 
 .header p {
-  margin-top: -6px;
+  margin-top: -4px;
 }
 
 /* * * * * * *
@@ -59,12 +60,13 @@ i {
  * * * * * * */
 
 .portfolio {
-  margin-left: 35%;
+  height: 80px;
+  width: 400px;
+  text-align: center;
+  margin-left: 33.5%;
 }
 
 .project-headers {
-  padding-left: 10%;
-  width: 30%;
   list-style: none;
   text-align: center;
 }
@@ -72,5 +74,6 @@ i {
 .project-headers a {
   font-size: 20px;
   color: white;
+  text-decoration: none;
 }
 
