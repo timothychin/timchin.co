@@ -17,14 +17,7 @@ app.use('/scripts', express.static(path.join(__dirname + '/../node_modules')));
 app.get('/', function(req, res) {
   res.render('index');
 });
-// var app = http.createServer(function(req, res) {
-//   fs.readFile('index.html', function(err, text) {
-//     res.setHeader('Content-Type', 'text/html');
-//     res.end(text);
-//   });
-//   return;
-//   res.setHeader("Content-Type", "text/html");
-// });
+
 
 
 
