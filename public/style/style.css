@@ -1,6 +1,7 @@
 body {
-  font-family: roboto;
-  background-image: url("assets/forest.jpg");
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("assets/palmtree.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,8 +14,8 @@ body {
 
 .header {
   font-size: 65px;
-  color: white;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
   height: 80px;
   width: 400px;
   text-align: center;
@@ -50,7 +51,7 @@ body {
 }
 
 i {
-  color: white;
+  color: black;
 }
 
 /* * * * * * *
@@ -73,7 +74,7 @@ i {
 
 .project-headers a {
   font-size: 20px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
