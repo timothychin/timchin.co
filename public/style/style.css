@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Open Sans', sans-serif;
-  background-image: url("assets/palmtree.jpg");
+  background-image: url("assets/starry.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,8 +15,8 @@ body {
 
 .header {
   font-size: 65px;
-  color: black;
-  border: 1px solid black;
+  color: white;
+  border: 1px solid white;
   height: 80px;
   text-align: center;
   margin-top: 200px;
@@ -106,7 +106,7 @@ i {
 
 .project-headers a {
   font-size: 20px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
