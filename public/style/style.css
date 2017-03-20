@@ -5,7 +5,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 720px;
+  min-height: 700px;
+  width: 100%;
 }
 
 .page {
@@ -17,12 +18,25 @@ body {
   color: black;
   border: 1px solid black;
   height: 80px;
-  width: 400px;
   text-align: center;
   margin-top: 200px;
-  margin-left: 36%;
-  margin-right: 36%;
 }
+
+@media screen and (min-width: 500px){
+  .header {
+    width: 400px;
+    margin-left: 36%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    width: 350px;
+    display: inline-block;
+  }
+}
+
+
 
 .header p {
   margin-top: -4px;
@@ -36,6 +50,12 @@ body {
 
 .nav-container {
   height: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-container {
+    width: 350px;
+  }
 }
 
 .media-icons-container {
@@ -62,9 +82,21 @@ i {
 
 .portfolio {
   height: 80px;
-  width: 400px;
   text-align: center;
-  margin-left: 33.5%;
+}
+
+@media screen and (min-width: 500px) {
+  .portfolio {
+    width: 400px;
+    margin-left: 33.5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio {
+    width: 300px;
+    display: inline-block;
+  }
 }
 
 .project-headers {
